@@ -5,6 +5,7 @@ const d8 = document.getElementById('d8');
 const d10 = document.getElementById('d10');
 const d12 = document.getElementById('d12');
 const d20 = document.getElementById('d20');
+const d100 = document.getElementById('d100');
 const result = document.getElementById('result');
 
 // dice function than rolls the dice
@@ -43,6 +44,11 @@ function main() {
   });
   d20.addEventListener('click', () => {
     let r = dice(1, 20);
+    result.innerText = r;
+    console.log(r);
+  });
+  d100.addEventListener('click', () => {
+    let r = dice(1, 100);
     result.innerText = r;
     console.log(r);
   });
