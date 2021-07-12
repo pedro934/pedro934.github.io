@@ -12,8 +12,14 @@ header {
 
 body {
   text-align: center;
-  background-color: gray;
+  background-color: #ff9900;
   font-family: sans-serif;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
 }
 
 button {
