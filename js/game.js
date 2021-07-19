@@ -20,39 +20,39 @@ function main() {
   d4.addEventListener('click', () => {
     let r = dice(1, 4);
     result.innerText = r;
-    console.log(r);
+    return r;
   });
   d6.addEventListener('click', () => {
     let r = dice(1, 6);
     result.innerText = r;
-    console.log(r);
+    return r;
   });
   d8.addEventListener('click', () => {
     let r = dice(1, 8);
     result.innerText = r;
-    console.log(r);
+    return r;
   });
   d10.addEventListener('click', () => {
     let r = dice(1, 10);
     result.innerText = r;
-    console.log(r);
+    return r;
   });
   d12.addEventListener('click', () => {
     let r = dice(1, 12);
     result.innerText = r;
-    console.log(r);
+    return r;
   });
   d20.addEventListener('click', () => {
     let r = dice(1, 20);
     result.innerText = r;
-    console.log(r);
+    return r;
   });
   d100.addEventListener('click', () => {
     let r = dice(1, 100);
     result.innerText = r;
-    console.log(r);
+    return r;
   });
 }
 
 // callback the main function
-main();
+console.log(main());
